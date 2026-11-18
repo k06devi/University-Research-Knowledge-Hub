@@ -1,0 +1,247 @@
+{
+  "departments": [
+    {
+      "id": "dep-cse",
+      "name": "Computer Science and Engineering",
+      "shortName": "CSE",
+      "description": "Computing, software systems, AI and data science."
+    },
+    {
+      "id": "dep-ece",
+      "name": "Electronics and Communication Engineering",
+      "shortName": "ECE",
+      "description": "Embedded systems, communication and intelligent devices."
+    },
+    {
+      "id": "dep-mech",
+      "name": "Mechanical Engineering",
+      "shortName": "MECH",
+      "description": "Robotics, manufacturing and thermal systems."
+    }
+  ],
+  "researchAreas": [
+    {
+      "id": "area-ai",
+      "name": "Artificial Intelligence",
+      "keywords": [
+        "AI",
+        "machine learning",
+        "deep learning",
+        "NLP"
+      ]
+    },
+    {
+      "id": "area-iot",
+      "name": "Internet of Things",
+      "keywords": [
+        "IoT",
+        "sensors",
+        "smart systems"
+      ]
+    },
+    {
+      "id": "area-cyber",
+      "name": "Cybersecurity",
+      "keywords": [
+        "security",
+        "privacy",
+        "networks"
+      ]
+    },
+    {
+      "id": "area-robotics",
+      "name": "Robotics",
+      "keywords": [
+        "automation",
+        "robotics",
+        "control"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub-1",
+      "title": "Explainable Machine Learning for Smart Campus Applications",
+      "year": 2025,
+      "venue": "Journal of Applied Computing",
+      "doi": "10.0000/demo.001",
+      "authorIds": [
+        "fac-1"
+      ],
+      "keywords": [
+        "AI",
+        "machine learning",
+        "smart campus"
+      ]
+    },
+    {
+      "id": "pub-2",
+      "title": "Secure Sensor Networks for Connected Laboratories",
+      "year": 2024,
+      "venue": "International IoT Review",
+      "doi": "10.0000/demo.002",
+      "authorIds": [
+        "fac-2"
+      ],
+      "keywords": [
+        "IoT",
+        "cybersecurity",
+        "sensors"
+      ]
+    },
+    {
+      "id": "pub-3",
+      "title": "Human-Aware Navigation for Low-Cost Service Robots",
+      "year": 2025,
+      "venue": "Robotics Research Letters",
+      "doi": "10.0000/demo.003",
+      "authorIds": [
+        "fac-3"
+      ],
+      "keywords": [
+        "robotics",
+        "automation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "AI-Based Student Support Assistant",
+      "status": "Ongoing",
+      "funding": "Internal seed grant",
+      "leadFacultyId": "fac-1",
+      "researchAreaIds": [
+        "area-ai"
+      ],
+      "description": "A question-answering assistant for campus information."
+    },
+    {
+      "id": "proj-2",
+      "title": "IoT Environmental Monitoring Network",
+      "status": "Completed",
+      "funding": "Department project",
+      "leadFacultyId": "fac-2",
+      "researchAreaIds": [
+        "area-iot",
+        "area-cyber"
+      ],
+      "description": "Sensor-based monitoring with secure data transfer."
+    },
+    {
+      "id": "proj-3",
+      "title": "Assistive Mobile Robot Prototype",
+      "status": "Ongoing",
+      "funding": "Innovation cell",
+      "leadFacultyId": "fac-3",
+      "researchAreaIds": [
+        "area-robotics"
+      ],
+      "description": "A prototype robot for indoor assistance."
+    }
+  ],
+  "facilities": [
+    {
+      "id": "lab-ai",
+      "name": "AI and Data Science Lab",
+      "location": "Technology Block, Room 204",
+      "equipment": [
+        "GPU workstations",
+        "AI development systems"
+      ],
+      "researchAreaIds": [
+        "area-ai"
+      ]
+    },
+    {
+      "id": "lab-iot",
+      "name": "IoT and Embedded Systems Lab",
+      "location": "ECE Block, Room 112",
+      "equipment": [
+        "ESP32 kits",
+        "sensor modules",
+        "network analyzers"
+      ],
+      "researchAreaIds": [
+        "area-iot",
+        "area-cyber"
+      ]
+    },
+    {
+      "id": "lab-robot",
+      "name": "Robotics and Automation Lab",
+      "location": "Mechanical Block, Room 018",
+      "equipment": [
+        "Mobile robot kits",
+        " robotic arms",
+        "3D printer"
+      ],
+      "researchAreaIds": [
+        "area-robotics"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac-1",
+      "name": "Dr. Ananya Raman",
+      "designation": "Associate Professor",
+      "email": "ananya.raman@example.edu",
+      "departmentId": "dep-cse",
+      "researchAreaIds": [
+        "area-ai"
+      ],
+      "publicationIds": [
+        "pub-1"
+      ],
+      "projectIds": [
+        "proj-1"
+      ],
+      "facilityIds": [
+        "lab-ai"
+      ],
+      "bio": "Works on explainable AI, machine learning and intelligent campus applications."
+    },
+    {
+      "id": "fac-2",
+      "name": "Dr. Karthik Vel",
+      "designation": "Assistant Professor",
+      "email": "karthik.vel@example.edu",
+      "departmentId": "dep-ece",
+      "researchAreaIds": [
+        "area-iot",
+        "area-cyber"
+      ],
+      "publicationIds": [
+        "pub-2"
+      ],
+      "projectIds": [
+        "proj-2"
+      ],
+      "facilityIds": [
+        "lab-iot"
+      ],
+      "bio": "Research interests include IoT systems, sensor networks and cybersecurity."
+    },
+    {
+      "id": "fac-3",
+      "name": "Dr. Meera Nair",
+      "designation": "Professor",
+      "email": "meera.nair@example.edu",
+      "departmentId": "dep-mech",
+      "researchAreaIds": [
+        "area-robotics"
+      ],
+      "publicationIds": [
+        "pub-3"
+      ],
+      "projectIds": [
+        "proj-3"
+      ],
+      "facilityIds": [
+        "lab-robot"
+      ],
+      "bio": "Focuses on robotics, automation and human-aware navigation."
+    }
+  ]
+}
